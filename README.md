@@ -1,1 +1,1 @@
-# A twitter Bot that gives JRR Tolkien bots
+# A twitter Bot that gives JRR Tolkien quotes
