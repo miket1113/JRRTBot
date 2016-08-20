@@ -12,7 +12,7 @@ tweetbot = MarkovBot.MarkovBot()
 
 dir = os.path.dirname(os.path.abspath(__file__))
 
-quotes = os.path.join(dir, 'Quotes.txt')
+quotes = os.path.join(dir, 'Tol Quotes.txt')
 
 tweetbot.read(quotes)
 
