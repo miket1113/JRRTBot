@@ -7,7 +7,7 @@ import os
 from markovbot import MarkovBot
 
 
-tweetbot = MarkovBot()
+tweetbot = MarkovBot
 
 dir = os.path.dirname(os.path.abspath(__file__))
 
