@@ -28,6 +28,12 @@ access_token_secret = 'tdx74a4fRf7crogczxreIphFHqov2bmhIQPMjB3lwsEs0'
 tweetbot.twitter_login(cons_key, cons_secret, access_token, access_token_secret)
 
 
-tweetbot.twitter_tweeting_start(days=1, hours=0, minutes=0, keywords=None, prefix=None, suffix='#PyGaze')
+tweetbot.twitter_tweeting_start(days=1, hours=0, minutes=0, keywords=None, prefix=None, suffix=None)
+
+secsinweek = 7 * 24 * 60 * 60
+time.sleep(secsinweek)
+
+
+
 
 
