@@ -4,10 +4,11 @@
 
 
 import os
+import time
 from markovbot import MarkovBot
 
 
-tweetbot = MarkovBot
+tweetbot = MarkovBot.MarkovBot()
 
 dir = os.path.dirname(os.path.abspath(__file__))
 
