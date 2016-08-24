@@ -20,10 +20,10 @@ first_tweet = tweetbot.generate_text(10)
 print('Tolkien: ')
 print(first_tweet)
 
-cons_key = 'ylgW0M6gI8uXrOEsLFFLnheoW'
-cons_secret = 't1XmD9KlRcllWQwXHFMASxSJZ7eKKNV7kmdn9tqv05lkoT17mN'
-access_token = '766721464917712896-i5YcQCcgbgLD2K1PidTyenPjnD3L1wR'
-access_token_secret = 'tdx74a4fRf7crogczxreIphFHqov2bmhIQPMjB3lwsEs0'
+cons_key = #left empty intentioanlly, enter your own
+cons_secret = #left empty intentioanlly, enter your own
+access_token = #left empty intentioanlly, enter your own
+access_token_secret = #left empty intentioanlly, enter your own 
 
 tweetbot.twitter_login(cons_key, cons_secret, access_token, access_token_secret)
 
